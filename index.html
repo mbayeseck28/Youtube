@@ -11,111 +11,113 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="dark text-light">
-    <div class="bg-dark offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            <div class="col d-none  d-lg-block p-0 h-100  scroll h6" id="menu1" style="font-size: 14px;">
-                <!-- side -->
+<div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+        <div class="col-12 p-0 h-100  scroll h6" id="menu1" style="font-size: 14px;">
+            <!-- side -->
+         
+            <a href="" class="text-light text-decoration-none">
+                <div class="list activeLink">
+                 <i class="bi bi-house-door-fill me-4 "></i>  Home
+                </div>
+            </a>
+            <a href="" class="text-muted text-decoration-none">
+                <div class="list">
+                 <i class="bi bi-compass-fill me-4 "></i>  Explore
+                </div>
+            </a>
+            <a href="" class="text-muted text-decoration-none">
+                <div class="list">
+                 <i class="bi bi-play-btn-fill me-4 "></i>  Subscriptions
+                </div>
+            </a>
+ 
+            <hr/>
+ 
+            <a href="" class="text-light text-decoration-none">
+                 <div class="list text-muted">
+                     <i class="bi bi-play-btn-fill me-4 "></i>  library
+                 </div>
+             </a>
+             <a href="" class="text-muted text-decoration-none">
+                 <div class="list">
+                     <i class="bi bi-clock-history me-4"></i> History
+                 </div>
+             </a>
+             <a href="" class="text-muted text-decoration-none">
+                 <div class="list">
+                     <i class="bi bi-file-play-fill me-4"></i> Your Videos
+                 </div>
+             </a>
+             <a href="" class="text-light text-decoration-none">
+                 <div class="list text-muted">
+                     <i class="bi bi-eye-fill me-4 "></i>  watch Later
+                 </div>
+             </a>
+             <a href="" class="text-light text-decoration-none">
+                 <div class="list text-muted">
+                     <i class="bi bi-heart-fill me-4"></i>  Likes video
+                 </div>
+             </a>
              
-                <a href="" class="text-light text-decoration-none">
-                    <div class="list activeLink">
-                     <i class="bi bi-house-door-fill me-4 "></i>  Home
-                    </div>
-                </a>
-                <a href="" class="text-muted text-decoration-none">
-                    <div class="list">
-                     <i class="bi bi-compass-fill me-4 "></i>  Explore
-                    </div>
-                </a>
-                <a href="" class="text-muted text-decoration-none">
-                    <div class="list">
-                     <i class="bi bi-play-btn-fill me-4 "></i>  Subscriptions
-                    </div>
-                </a>
-     
-                <hr/>
-     
-                <a href="" class="text-light text-decoration-none">
-                     <div class="list text-muted">
-                         <i class="bi bi-play-btn-fill me-4 "></i>  library
-                     </div>
-                 </a>
-                 <a href="" class="text-muted text-decoration-none">
-                     <div class="list">
-                         <i class="bi bi-clock-history me-4"></i> History
-                     </div>
-                 </a>
-                 <a href="" class="text-muted text-decoration-none">
-                     <div class="list">
-                         <i class="bi bi-file-play-fill me-4"></i> Your Videos
-                     </div>
-                 </a>
-                 <a href="" class="text-light text-decoration-none">
-                     <div class="list text-muted">
-                         <i class="bi bi-eye-fill me-4 "></i>  watch Later
-                     </div>
-                 </a>
-                 <a href="" class="text-light text-decoration-none">
-                     <div class="list text-muted">
-                         <i class="bi bi-heart-fill me-4"></i>  Likes video
-                     </div>
-                 </a>
-                 
-                 <hr>
-     
-                 <p class="ps-4 fs-6 text-muted ms-2">More From Youtube</p>
-     
-                 <a href="" class="text-light text-decoration-none">
-                     <div class="list text-muted">
-                         <i class="bi bi-controller me-4 "></i>  Gaming
-                     </div>
-                 </a>
-     
-                 <a href="" class="text-muted text-decoration-none">
-                     <div class="list">
-                         <i class="bi bi-broadcast me-4"></i> Live 
-                     </div>
-                 </a>
-                 
-                 <a href="" class="text-muted text-decoration-none">
-                     <div class="list">
-                         <i class="bi bi-dice-6-fill me-4"></i> Sport
-                     </div>
-                 </a>
-     
-                 <hr>
-     
-     
-                <a href="" class="text-light text-decoration-none">
-                     <div class="list text-muted">
-                         <i class="bi bi-gear-fill me-4 "></i>  settings
-                     </div>
-                 </a>
-                 <a href="" class="text-muted text-decoration-none">
-                     <div class="list">
-                         <i class="bi bi-flag-fill me-4"></i> Report history 
-                     </div>
-                 </a>
-                 <a href="" class="text-muted text-decoration-none">
-                     <div class="list">
-                         <i class="bi bi-info-circle-fill me-4"></i> Help
-                     </div>
-                 </a>
-                 <a href="" class="text-muted text-decoration-none">
-                     <div class="list">
-                         <i class="bi bi-bar-chart-line-fill me-4"></i> Send feedback
-                     </div>
-                 </a>
-     
-             </div>
-      </div>
+             <hr>
+ 
+             <p class="ps-4 fs-6 text-muted ms-2">More From Youtube</p>
+ 
+             <a href="" class="text-light text-decoration-none">
+                 <div class="list text-muted">
+                     <i class="bi bi-controller me-4 "></i>  Gaming
+                 </div>
+             </a>
+ 
+             <a href="" class="text-muted text-decoration-none">
+                 <div class="list">
+                     <i class="bi bi-broadcast me-4"></i> Live 
+                 </div>
+             </a>
+             
+             <a href="" class="text-muted text-decoration-none">
+                 <div class="list">
+                     <i class="bi bi-dice-6-fill me-4"></i> Sport
+                 </div>
+             </a>
+ 
+             <hr>
+ 
+ 
+            <a href="" class="text-light text-decoration-none">
+                 <div class="list text-muted">
+                     <i class="bi bi-gear-fill me-4 "></i>  settings
+                 </div>
+             </a>
+             <a href="" class="text-muted text-decoration-none">
+                 <div class="list">
+                     <i class="bi bi-flag-fill me-4"></i> Report history 
+                 </div>
+             </a>
+             <a href="" class="text-muted text-decoration-none">
+                 <div class="list">
+                     <i class="bi bi-info-circle-fill me-4"></i> Help
+                 </div>
+             </a>
+             <a href="" class="text-muted text-decoration-none">
+                 <div class="list">
+                     <i class="bi bi-bar-chart-line-fill me-4"></i> Send feedback
+                 </div>
+             </a>
+ 
+         </div>
+  </div>
+<body class="dark text-light">
     <!-- header -->
     <div class="container-fuild">
         <div class="d-flex justify-content-between p-2 border-light">
 
             <!-- left side -->
             <div class="d-flex  align-items-center col-6 col-md-3 col-lg-2 ">
-                <button class="rounded-circle bg-transparent text-white btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                <button class="rounded-circle bg-transparent text-white btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                     <i class="bi bi-list"></i>
                 </button>
                 <a href="index.html" class="text-decoration-none text-light" id="youtube">
